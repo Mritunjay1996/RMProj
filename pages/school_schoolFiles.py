@@ -5,13 +5,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
 import time
-import pyautogui
 import os
 import allure
 
 class school_schoolFilesPage:
 
-    pyautogui.FAILSAFE = False
     tab_schoolFiles = (By.XPATH, "//a[text()[1]='School Files']")
     option_forStudents = (By.XPATH, "//a[text()='For Students']")
     option_forInstructors = (By.XPATH, "//a[text()='For Instructors']")

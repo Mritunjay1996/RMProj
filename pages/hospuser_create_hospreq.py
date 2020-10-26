@@ -6,11 +6,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import allure
-import pyautogui
+
 
 class hospusercreatehospreqObj:
 
-    pyautogui.FAILSAFE = False
     hosp_agreement = (By.XPATH, "//a[@class='btn btn-inverse']")
     hosp_mydiscipline = (By.XPATH, "//a[contains(text(),'My Disciplines')]")
     hosp_edithospReq = (By.XPATH, "//a[contains(text(),'Edit Student Requirements')]")

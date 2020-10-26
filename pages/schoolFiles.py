@@ -10,12 +10,10 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
 import os
 import time
-import pyautogui
 import allure
 
 class schoolFilesPage:
 
-    pyautogui.FAILSAFE = False
     #uploadResume_button = (By.XPATH, "//a[text()='UPLOAD']")
     uploadFile_input = (By.XPATH, "//input[@id='upload_file']")
     upload_button1 = (By.XPATH, "//table[@class='requirements table table-bordered table-striped']/tbody/tr[2]/td[3]/a")
