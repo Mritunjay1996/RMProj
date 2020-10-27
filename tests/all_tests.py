@@ -35,7 +35,7 @@ rotation_h6 = ""
 rotation_h10 = ""
 
 
-@allure.title('A1: Admin creates a school and a school user     .....')
+@allure.title('A1: Admin creates a school and a school user...- ')
 def test_admin_create_school_and_crm(browser):
     home_page = homepageObjects(browser)
     crm_page = adminCRMObj(browser)
