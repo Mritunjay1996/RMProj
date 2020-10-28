@@ -35,7 +35,7 @@ rotation_h6 = ""
 rotation_h10 = ""
 
 
-@allure.title('A1: Admin creates a school and a school user...- ')
+@allure.title('A1: Admin creates a school and a school user')
 def test_admin_create_school_and_crm(browser):
     home_page = homepageObjects(browser)
     crm_page = adminCRMObj(browser)
@@ -775,6 +775,7 @@ def test_school_upload_multiple_req(browser):
     time.sleep(5)
     myStudents.upload_file()
     myStudents.select_fulfill_yes()
+    myStudents.enter_expirationDate_multiple_req()
     myStudents.check_multiple_req()
     myStudents.click_confirm()
     time.sleep(5)
