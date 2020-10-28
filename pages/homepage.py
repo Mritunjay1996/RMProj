@@ -17,7 +17,8 @@ class homepageObjects:
     in this class for homepage
     """
 
-    URL = "https://rmdev2.com/"
+    # URL = "https://rmdev2.com/"
+    URL = "https://qa.rotationmanager.com/"
     register_link = (By.XPATH, '//a[text()="Register"]')
     username_input = (By.XPATH, '//input[@name="username"]')
     password_input = (By.XPATH, '//input[@name="password"]')

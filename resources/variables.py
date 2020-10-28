@@ -14,7 +14,8 @@ def generateRandNum(self):
 
 # student_username = "rob.stark." + str(randNum) + "@email.com"
 # student_password = "Robstark123"
-admin_username = "admin@rotationmanager.com"
+# admin_username = "admin@rotationmanager.com"
+admin_username = "qa_admin@rotationmanager.com"
 admin_password = "adminyou22"
 crm_firstname = "CRM_User_" + randNum
 crm_lastname = "Automation"

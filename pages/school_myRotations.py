@@ -232,7 +232,6 @@ class school_myRotationsPage:
         self.browser.find_element(*self.input_endDate).send_keys(new_date)
         return new_date
 
-
     @allure.step('Enter End Date')
     def enter_endDate_new(self):
         time.sleep(3)
