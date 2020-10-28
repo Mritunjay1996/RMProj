@@ -87,8 +87,6 @@ def test_admin_create_school_and_crm(browser):
                                                               " is wrong for the created CRM. Instead email should be " + crm_email
     assert crm_page.verify_crm_creation_shadowing() == 'OFF', "Shadowing CRM option: " + crm_page.verify_crm_creation_shadowing() + \
                                                               " is wrong for the created CRM. Instead option should be OFF"
-    # assert crm_page.verify_crm_creation_ccemail() == 'OFF', "CC Email option: " + crm_page.verify_crm_creation_ccemail() + \
-    #                                                         " is wrong for the created CRM. Instead option should be OFF"
 
 
 @allure.title('A2: Admin creates a hospital and links first school to it')
