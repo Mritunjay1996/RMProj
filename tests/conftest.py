@@ -89,7 +89,7 @@ def browser(config_browser, config_wait_time, request):
         options.add_argument('--ignore-certificate-errors')
         options.add_argument(
             '--user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"')
-        driver = Chrome(options=options)  # options=options
+        driver = Chrome(options=options)
     else:
         raise Exception(f'"{config_browser}" is not a supported browser')
 
